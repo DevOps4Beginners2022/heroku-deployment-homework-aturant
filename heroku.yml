@@ -1,0 +1,7 @@
+setup:
+  addons:
+    -plan: heroku-postgresql
+  config:
+    -PORT: 3000
+build:
+  languages: []
