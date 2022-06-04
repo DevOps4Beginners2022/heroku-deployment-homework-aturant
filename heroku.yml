@@ -4,4 +4,5 @@ setup:
   config:
     -PORT: 3000
 build:
-  languages: []
+  docker:
+    web: Dockerfile
