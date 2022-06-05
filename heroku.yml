@@ -1,8 +1,9 @@
 setup:
   addons:
-    -plan: heroku-postgresql
+    - plan: heroku-postgresql
+      as: DATABASE
   config:
-    -PORT: 3000
+    - PORT: 3000
 build:
   docker:
     web: Dockerfile
