@@ -1,4 +1,4 @@
-# Heroku deployment homework
+# Heroku deployment homeworkk
 
 ## Zadanie 1
 
