@@ -1,8 +1,8 @@
 FROM golang:1.17-alpine
-LABEL VERSION="1" AUTHOR="AlekT"
-ARG PORT=8000
+LABEL VERSION='1' AUTHOR='AlekT'
+# ARG PORT=8000
 ARG PROJECT_DIR=/go_app
-ENV PORT=${PORT}
+ENV PORT
 # ENV DATABASE_URL=tadama
 RUN mkdir $PROJECT_DIR && cd ${PROJECT_DIR}
 # RUN addgroup --gid 1000 app_users && \
